@@ -4,7 +4,7 @@ package collection;
  * Created by simma1733207 on 2018-03-19.
  */
 public class Stack<T> {
-    private LinkedList<T> linkedList = new LinkedList<>();
+    private List<T> linkedList = new LinkedList<>();
 
     public void push(T element){
         linkedList.add(element);
